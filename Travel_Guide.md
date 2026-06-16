@@ -218,7 +218,7 @@
     ![](<Pasted image 20260528184827.png>)
 - **⛅ 下午**：经[西岱岛](https://www.google.com/maps/search/?api=1&query=Île+de+la+Cité+Paris)前往 **[拉丁区](https://www.google.com/maps/search/?api=1&query=Quartier+Latin+Paris)**，感受[索邦大学](https://www.google.com/maps/search/?api=1&query=Sorbonne+University+Paris)文学院与巴黎高师的学术氛围。在 **1968 年五月风暴遗迹** 附近走走，逛逛[索邦广场](https://www.google.com/maps/search/?api=1&query=Place+de+la+Sorbonne+Paris)周边的书店。
     ![](<Pasted image 20260528195358.png>) ![](<Pasted image 20260528195546.png>)
-    随后前往 **[蓬皮杜广场](https://www.google.com/maps/search/?api=1&query=Centre+Pompidou+Paris)**，看看前卫建筑与周边老街区的融合；顺路去 **[Citypharma](https://www.google.com/maps/search/?api=1&query=Citypharma+Paris)** 药妆店，帮女朋友买齐 **兰蔻新持妆轻透粉底液**。
+    随后前往 **[蓬皮杜广场](https://www.google.com/maps/search/?api=1&query=Centre+Pompidou+Paris)**，看看前卫建筑与周边老街区的融合；顺路去 **[Citypharma](https://www.google.com/maps/search/?api=1&query=Citypharma+Paris)** 药妆店，为女朋友准备好 **兰蔻新持妆轻透粉底液**。
     ![](<Pasted image 20260528195740.png>) ![](<Pasted image 20260528202205.png>)
 - **🌙 晚上**：在[拉丁区](https://www.google.com/maps/search/?api=1&query=Quartier+Latin+Paris)艺术影院 (**[Le Champo](https://www.google.com/maps/search/?api=1&query=Le+Champo+Paris)** 或 **[Reflet Médicis](https://www.google.com/maps/search/?api=1&query=Reflet+Médicis+Paris)**) 观个影，走走法国新浪潮电影萌芽期的那些街道。
     ![](<Pasted image 20260528200001.png>)
@@ -237,7 +237,7 @@
 
 - **☀️ 上午**：参观 **[卢浮宫](https://www.google.com/maps/search/?api=1&query=Louvre+Museum+Paris)** (需提前预约)。
 - **⛅ 中午**：沿[杜乐丽花园](https://www.google.com/maps/search/?api=1&query=Jardin+des+Tuileries+Paris)步行至 **[香榭丽舍大街](https://www.google.com/maps/search/?api=1&query=Avenue+des+Champs-Élysées+Paris)**，途经[凯旋门](https://www.google.com/maps/search/?api=1&query=Arc+de+Triomphe+Paris)。
-    - **🛍️ 购物任务**：在香街的大型 Sephora 或品牌旗舰店买好女朋友嘱托的 **香奈儿香水** 和 **YSL 610号口红**。
+    - **🛍️ 购物任务**：在香街的大型 Sephora 或品牌旗舰店为女朋友精心挑选 **香奈儿香水** 和 **YSL 610号口红**。
 - **⛅ 下午**：乘地铁 1 号线至西郊 **[拉德芳斯 (La Défense)](https://www.google.com/maps/search/?api=1&query=La+Défense+Paris)** 新[凯旋门](https://www.google.com/maps/search/?api=1&query=Arc+de+Triomphe+Paris)，看看现代商业区的规划面貌。
 - **🌙 晚上**：前往 **[埃菲尔铁塔](https://www.google.com/maps/search/?api=1&query=Eiffel+Tower+Paris)**；随后沿塞纳河步行至[新桥 (Pont Neuf)](https://www.google.com/maps/search/?api=1&query=Pont+Neuf+Paris)，寻访莱奥·卡拉克斯 **《新桥恋人》** 的取景地。
 
@@ -345,7 +345,7 @@
 
 #### 🗓️ 7 月 11 日 (周六) | [迪镇集市](https://www.google.com/maps/search/?api=1&query=Marché+de+Die)与周末的烟火气
 
-- **☀️ 上午**：逛逛 **[迪镇集市](https://www.google.com/maps/search/?api=1&query=Marché+de+Die)**。看看当地果农和商贩的日常，帮女朋友带一瓶当地特产的 **起泡酒 (Clairette de Die)** 或精美的手工艺品。
+- **☀️ 上午**：逛逛 **[迪镇集市](https://www.google.com/maps/search/?api=1&query=Marché+de+Die)**。看看当地果农和商贩的日常，为女朋友带一瓶当地特产的 **起泡酒 (Clairette de Die)** 或精美的手工艺品。
 - **⛅ 下午**：在小镇巷子里和 **[罗马城墙遗址 (Remparts de Die)](https://www.google.com/maps/search/?api=1&query=Remparts+de+Die)** 周边随意走走，感受这座盆地城镇特有的宁静与古朴。
 - **🌙 晚上**：去 **[共和国广场 (Place de la République)](https://www.google.com/maps/search/?api=1&query=Place+de+la+République+Die)** 附近找家酒馆。点一杯酒，静静感受一下外省年轻人的真实社交生活。
 
