@@ -1,22 +1,107 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>2026 法国夏日探索指南</title><style>
-    :root { --primary-color: #2c3e50; --bg-color: #f8f9fa; --border-color: #e1e4e8; }
-    body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #24292e; max-width: 800px; margin: 0 auto; padding: 20px; background-color: var(--bg-color); }
-    h1, h2, h3 { color: var(--primary-color); border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-top: 1.5em; }
-    img { max-width: 100%; height: auto; border-radius: 8px; margin: 10px 0; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-    table { border-collapse: collapse; width: 100%; margin: 20px 0; overflow-x: auto; display: block; }
-    th, td { border: 1px solid var(--border-color); padding: 12px; text-align: left; }
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 法国夏日探索指南</title>
+    <style>
+    :root {
+        --primary-color: #2c3e50;
+        --bg-color: #f8f9fa;
+        --border-color: #e1e4e8;
+    }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.6;
+        color: #24292e;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: var(--bg-color);
+    }
+    h1, h2, h3 {
+        color: var(--primary-color);
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 10px;
+        margin-top: 1.5em;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 10px 0;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+        overflow-x: auto;
+        display: block;
+    }
+    th, td {
+        border: 1px solid var(--border-color);
+        padding: 12px;
+        text-align: left;
+    }
     th { background-color: #f6f8fa; }
-    blockquote { margin: 0; padding: 10px 20px; color: #6a737d; border-left: 0.25em solid var(--border-color); background: #fff; }
-    input[type="checkbox"] { margin-right: 10px; transform: scale(1.2); }
-    a { color: #0366d6; text-decoration: none; }
-    .alert { border-radius: 6px; border-left: 6px solid; margin: 20px 0; padding: 15px; background: #fff; }
-    .alert-title { font-weight: bold; margin-bottom: 8px; }
+    blockquote {
+        margin: 0;
+        padding: 10px 20px;
+        color: #6a737d;
+        border-left: 0.25em solid var(--border-color);
+        background: #fff;
+    }
+    input[type="checkbox"] {
+        margin-right: 10px;
+        transform: scale(1.2);
+    }
+    a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    .alert {
+        border-radius: 6px;
+        border-left: 6px solid;
+        margin: 20px 0;
+        padding: 15px;
+        background: #fff;
+    }
+    .alert-title {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
     .alert-info { border-left-color: #0366d6; background: #f1f8ff; }
     .alert-tip { border-left-color: #28a745; background: #f0fff4; }
     .alert-warning { border-left-color: #ffd33d; background: #fffdef; }
     .alert-danger { border-left-color: #d73a49; background: #ffeef0; }
-    @media (max-width: 600px) { body { padding: 15px; } h1 { font-size: 1.5em; } }
-    </style></head><body><p><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" width="100%" style="border-radius: 8px; margin-bottom: 20px;" /></p>
+    
+    @media (max-width: 600px) {
+        body { padding: 15px; }
+        h1 { font-size: 1.5em; }
+    }
+    
+    li { margin-bottom: 8px; }
+    li:has(input[type="checkbox"]) {
+        list-style-type: none;
+        margin-left: -24px;
+    }
+    p:has(img) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    p:has(img) img { margin: 0; }
+    img[src*="unsplash"] {
+        width: 100%;
+        object-fit: cover;
+    }
+    </style>
+</head>
+<body>
+<p><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" width="100%" style="border-radius: 8px; margin-bottom: 20px;" /></p>
 <div align="center">
 
 # 🇫🇷 2026 法国夏日探索指南
@@ -28,7 +113,12 @@
 </div>
 
 <h1>01 准备阶段</h1>
-<div class="alert alert-info"><div class="alert-title">ℹ️ 💡 核心原则</div><div class="alert-content"><p>7月的法国正值盛夏，南部（马赛、圣保罗三堡）阳光热烈，北部（巴黎、圣马洛）早晚可能有温差。精简行李，留出空间，随时准备迎接高强度的徒步与城市暴走。</p></div></div>
+<div class="alert alert-info"><div class="alert-title">核心原则</div><div class="alert-content" markdown="1">
+
+7月的法国正值盛夏，南部（马赛、圣保罗三堡）阳光热烈，北部（巴黎、圣马洛）早晚可能有温差。精简行李，留出空间，随时准备迎接高强度的徒步与城市暴走。
+
+
+</div></div>
 <h2>📱 1. 数字生活 (必备 App 下载与注册)</h2>
 <h3>交通导航</h3>
 <ul>
@@ -42,14 +132,44 @@
 <li><input type="checkbox" checked disabled> <strong>Booking.com</strong>: 随时查看已预订好的酒店订单、获取门禁密码或联系房东。</li>
 <li><input type="checkbox" checked disabled> <strong>中国银行 App</strong>: 随时随地查汇率，零额度 VISA 卡余额不足时可即时购汇美元补充。</li>
 </ul>
-<h3>语言与网络通讯</h3>
+<h3>📶 语言与网络通讯</h3>
 <ul>
 <li><input type="checkbox" checked disabled> <strong>Google Translate / DeepL</strong>: 提前下载法语离线语言包，应对个别菜单或突发交流。</li>
 <li><input type="checkbox" checked disabled> <strong>TheFork</strong>: 欧洲版“大众点评”，用于提前预订法餐厅（部分时段有折扣）。</li>
-<li><input type="checkbox" disabled> <strong>网络方案 (必须落地即通)</strong>: </li>
-<li><strong>首选</strong>: 手机支持的话，提前在 <strong>Airalo App</strong> 购买法国 eSIM (约 $15/10GB)。</li>
-<li><strong>备选</strong>: 落地后在 CDG 机场购买 <strong>Orange Holiday</strong> 实体卡 (约 €40，含大量流量与通话)。</li>
+<li><input type="checkbox" checked disabled> <strong>网络方案 (实体卡选购与防扣费设置)</strong>: </li>
 </ul>
+<div class="alert alert-tip"><div class="alert-title">购卡提示：CDG 机场实体店购买指南</div><div class="alert-content" markdown="1">
+
+如果您没有在国内提前买好，戴高乐机场 (CDG) **确定有实体店**。您可以在到达大厅寻找红色的 **Relay** 便利店，或者直接找 **Boutique Orange** 专柜。
+
+🗣️ **沟通话术（可直接展示或读给店员）：**
+- 🇫🇷 **法语**: *"Bonjour, je voudrais une carte SIM prépayée 'Orange Holiday', s'il vous plaît."*
+- 🇬🇧 **英语**: *"Hello, I would like an 'Orange Holiday' prepaid SIM card, please."*
+
+
+</div></div>
+<div class="alert alert-danger"><div class="alert-title">双卡防扣费 4 步绝杀设置</div><div class="alert-content" markdown="1">
+
+如果是提前买好了卡或在机场刚买到，请**必须**按照以下设置，确保国内号免费收短信的同时彻底切断流量：
+
+**Step 1. 起飞前：开通基础漫游** (必须在国内完成)
+通过运营商 App (移动/联通/电信) 免费开通国际漫游。只需开通**语音和短信漫游**即可，**千万别买流量包**！否则国内卡会无服务。
+
+**Step 2. 降落前/插卡时：物理插卡**
+在飞机降落前或买卡后，将 Orange Holiday 实体卡插入备用卡槽。此时手机应为“国内号+法国号”双卡状态。
+
+**Step 3. 落地开机：指定默认流量卡** 
+进入“设置” -> “蜂窝网络”/“双卡移动网络”，将【默认移动数据】设为法国 Orange 卡。
+
+**Step 4. 终极保险：关闭智能切换与漫游** 
+- **关闭自动切换**：在蜂窝网络设置中，关闭“允许切换移动数据” (iOS) 或“智能上网卡” (安卓)。
+- **关闭国内卡漫游**：在蜂窝网络详情里，确保国内卡的“数据漫游”开关处于 **OFF**。
+
+---
+**✅ 最终效果：** 手机呈现“完美形态”，法国卡提供极速 5G 网络，国内卡在后台**免费、实时接收**所有验证码短信。
+
+
+</div></div>
 <hr />
 <h2>🎒 2. 证件财务与紧急联络 (核心护甲)</h2>
 <h3>🆘 紧急求助通讯录 (建议存入手机并打印)</h3>
@@ -88,13 +208,21 @@
 <ul>
 <li><input type="checkbox" checked disabled> <strong>护照原件</strong> (含已签发的申根签证)。</li>
 <li><input type="checkbox" disabled> <strong>重要文件复印件</strong>：护照首页、签证页复印件（与原件分开存放，防万一）。</li>
-<li><input type="checkbox" disabled> <strong>纸质版预订单</strong>：将所有 Booking 酒店预订单、火车票打印一份纸质版（过海关和前台 Check-in 时非常高效）。</li>
+<li><input type="checkbox" disabled> <strong>纸质版预订单</strong>：将所有 Booking 酒店预订单、火车票打印一份纸质版（过海关和前台 Check-in 时非常高效）</li>
 <li><input type="checkbox" checked disabled> <strong>实体卡片</strong>：中国银行 VISA 卡（主刷）、银联借记卡（备用取现）。</li>
-<li><input type="checkbox" disabled> <strong>欧元现金</strong>：国内提前兑换好的 250-300 欧元零钱（10欧、20欧面额，<strong>切记预留出 200 欧作为圣马洛公寓押金</strong>）。</li>
+<li><input type="checkbox" disabled> <strong>欧元现金</strong>：建议国内提前兑换好 <strong>300 欧元</strong> 的现金零钱。</li>
+<li>💶 <strong>[必须现金]</strong> 切记预留出 200 欧作为圣马洛公寓押金。</li>
+<li><strong>兑换建议</strong>：<strong>强烈推荐在国内中国银行/工商银行提前预约兑换</strong>，汇率最优且无手续费。<strong>重点要求换小面额（10欧、20欧、50欧），绝对不要接受 500 欧大钞</strong>，100 欧也尽量少带（很多小店找不开或拒收）。</li>
+<li><strong>中途补充</strong>：若现金不足，首选在巴黎市区带有 <code>UnionPay</code>（银联）标识的 ATM 机直接取现（扣部分手续费，但汇率优于人工店）；<strong>极不推荐</strong>在机场的 <code>Travelex</code> 人工柜台换汇，汇率极差。</li>
 <li><input type="checkbox" checked disabled> <strong>学生证</strong>：带上清华的实体学生证或办理一张 ISIC 国际学生证，欧洲许多博物馆和景点对 25 岁以下学生有隐藏折扣或免票政策。</li>
 </ul>
 <h3>🚨 补充：巴黎交通票务线上 Bug 预案</h3>
-<div class="alert alert-danger"><div class="alert-title">🚨 线上防卡死提示</div><div class="alert-content"><p>如果由于 Cloudflare 网络风控导致无法线上注册账号，或由于安卓系统 NFC 兼容性导致 App 报错提示“版本不够新”，<strong>立刻放弃线上折腾</strong>，转为落地后线下办理实体卡。</p></div></div>
+<div class="alert alert-danger"><div class="alert-title">线上防卡死提示</div><div class="alert-content" markdown="1">
+
+如果由于 Cloudflare 网络风控导致无法线上注册账号，或由于安卓系统 NFC 兼容性导致 App 报错提示“版本不够新”，**立刻放弃线上折腾**，转为落地后线下办理实体卡。
+
+
+</div></div>
 <ul>
 <li><input type="checkbox" disabled> <strong>准备 1 寸免冠证件照（2-3张）</strong>：</li>
 <li><strong>尺寸要求</strong>：约 25mm × 30mm（国内普通的 1 寸白底或蓝底照片即可）。</li>
@@ -117,7 +245,12 @@
 </ul>
 <hr />
 <h2>💊 4. 药品与健康 (有备无患)</h2>
-<div class="alert alert-warning"><div class="alert-title">⚠️ 注意</div><div class="alert-content"><p>法国药妆店（带绿色十字标志）随处可见，可以买到很好的护肤品，但处方药购买极严，感冒消炎等常备药必须自己带足。</p></div></div>
+<div class="alert alert-warning"><div class="alert-title">注意</div><div class="alert-content" markdown="1">
+
+法国药妆店（带绿色十字标志）随处可见，可以买到很好的护肤品，但处方药购买极严，感冒消炎等常备药必须自己带足。
+
+
+</div></div>
 <ul>
 <li><input type="checkbox" disabled> <strong>感冒与退烧药</strong>：布洛芬（Ibuprofen）、对乙酰氨基酚（泰诺/散列通）等。</li>
 <li><input type="checkbox" disabled> <strong>肠胃药</strong>：蒙脱石散、健胃消食片、黄连素（应对水土不服或饮食油腻）。</li>
@@ -132,26 +265,31 @@
 <li><input type="checkbox" disabled> <strong>轻薄冲锋衣/防风外套</strong>：圣马洛位于布列塔尼大区，海风强劲，早晚温差大，防风外套是海滨漫步的刚需。</li>
 <li><input type="checkbox" disabled> <strong>速干运动服与短裤</strong>：专门为徒步和长时间暴走准备，排汗透气。</li>
 <li><input type="checkbox" disabled> <strong>专业徒步鞋/运动鞋</strong>：需要一双已经踩合脚、鞋底抓地力强的鞋，应对自然地貌。</li>
-<li><input type="checkbox" disabled> <strong>夏季日常休闲装</strong>：T恤、衬衫、休闲长裤</li>
+<li><input type="checkbox" checked disabled> <strong>夏季日常休闲装</strong>：T恤、衬衫、休闲长裤</li>
 <li><input type="checkbox" disabled> <strong>墨镜</strong>：防晒且出片。</li>
 <li><input type="checkbox" disabled> <strong>遮阳帽 / 运动帽</strong>。</li>
 <li><input type="checkbox" disabled> <strong>轻便双肩包</strong>：作为 Daypack，装水、相机、随身外套和路餐。</li>
 </ul>
 <hr />
 <h2>🪥 6. 洗漱与日用 (欧洲环保特色)</h2>
-<div class="alert alert-info"><div class="alert-title">ℹ️ 酒店提示</div><div class="alert-content"><p>欧洲绝大多数酒店（无论是青旅还是高档公寓）出于环保，<strong>绝对不提供</strong>牙刷和牙膏。拖鞋也仅有少部分提供。</p></div></div>
+<div class="alert alert-info"><div class="alert-title">酒店提示</div><div class="alert-content" markdown="1">
+
+欧洲绝大多数酒店（无论是青旅还是高档公寓）出于环保，**绝对不提供**牙刷和牙膏。拖鞋也仅有少部分提供。
+
+
+</div></div>
 <ul>
 <li><input type="checkbox" disabled> <strong>牙刷、牙膏</strong>。</li>
 <li><input type="checkbox" disabled> <strong>旅行装洗护用品</strong>：部分民宿公寓可能洗发水沐浴露储备不足，带一套旅行分装瓶以防万一。</li>
 <li><input type="checkbox" disabled> <strong>轻便拖鞋 / 人字拖</strong>：洗澡和在公寓内放松时使用。</li>
-<li><input type="checkbox" disabled> <strong>旅行便携雨伞</strong>：虽然是夏季，但巴黎等地偶尔会有阵雨。</li>
-<li><input type="checkbox" disabled> <strong>个人护肤品</strong>、剃须刀。</li>
+<li><input type="checkbox" checked disabled> <strong>旅行便携雨伞</strong>：虽然是夏季，但巴黎等地偶尔会有阵雨。</li>
+<li><input type="checkbox" checked disabled> <strong>个人护肤品</strong>、剃须刀。</li>
 <li><input type="checkbox" disabled> <strong>便携纸巾 / 湿厕纸</strong>。</li>
 </ul>
 <hr />
 <h2>🛍️ 给女朋友的专属礼物清单</h2>
 <ul>
-<li><input type="checkbox" disabled> <strong>兰蔻 (Lancôme)</strong>：新持妆轻透粉底液 (建议 7/2 在 <a href="https://www.google.com/maps/search/?api=1&amp;query=Citypharma+Paris">Citypharma</a> 买，更划算)。</li>
+<li><input type="checkbox" disabled> <strong>兰蔻 (Lancôme)</strong>：新持妆轻透粉底液 PO (建议 7/2 在 <a href="https://www.google.com/maps/search/?api=1&amp;query=Citypharma+Paris">Citypharma</a> 买，更划算)。</li>
 <li><input type="checkbox" disabled> <strong>香奈儿 (Chanel)</strong>：香水 (建议 7/4 在<a href="https://www.google.com/maps/search/?api=1&amp;query=Avenue+des+Champs-Élysées+Paris">香榭丽舍大街</a>或<a href="https://www.google.com/maps/search/?api=1&amp;query=Galeries+Lafayette+Paris">老佛爷百货</a>购买)。</li>
 <li><input type="checkbox" disabled> <strong>圣罗兰 (YSL)</strong>：610号口红 (建议 7/4 在 Sephora 旗舰店或专柜购买)。</li>
 <li><input type="checkbox" disabled> <strong>南法小镇特色</strong>：<ul>
@@ -162,7 +300,12 @@
 </li>
 </ul>
 <h1>02 交通枢纽</h1>
-<div class="alert alert-info"><div class="alert-title">ℹ️ 💡 核心交通策略</div><div class="alert-content"><p>此次 17 天的行程横跨法国东西南北，气候跨度大。全程以公共交通（TGV 高铁 + TER 区域火车 + Local Bus）为主干，配合市区地铁与徒步。请务必提前将所有电子票据存入手机钱包，并保留纸质备份。</p></div></div>
+<div class="alert alert-info"><div class="alert-title">核心交通策略</div><div class="alert-content" markdown="1">
+
+此次 17 天的行程横跨法国东西南北，气候跨度大。全程以公共交通（TGV 高铁 + TER 区域火车 + Local Bus）为主干，配合市区地铁与徒步。请务必提前将所有电子票据存入手机钱包，并保留纸质备份。
+
+
+</div></div>
 <h2>2.1 全局路线图 (17-Day Overview)</h2>
 <p><img alt="" src="1.png" /></p>
 <h3>🔄 行程流向与时间轴</h3>
@@ -201,9 +344,20 @@
 </tr>
 </tbody>
 </table>
+<div class="alert alert-warning"><div class="alert-title">🏨 住宿联络提醒：起飞前 (7月1日)</div><div class="alert-content" markdown="1">
+
+**巴黎 Peace & Love Hostel** 要求必须提前 24 小时确认抵达时间。请在登机前给旅舍发送邮件或致电 (+33 1 46 07 65 11)，告知他们您乘坐 AF201 航班于明早 05:50 落地，预计上午抵达旅舍存放行李。
+
+
+</div></div>
 <hr />
 <h2>2.3 城际交通时间表 (Intercity Train Schedule)</h2>
-<div class="alert alert-tip"><div class="alert-title">💡 登车提醒</div><div class="alert-content"><p>所有火车最晚需在发车前 <strong>2 分钟</strong> 登车。建议提前 <strong>15-20 分钟</strong> 抵达车站寻找站台。</p></div></div>
+<div class="alert alert-tip"><div class="alert-title">登车提醒</div><div class="alert-content" markdown="1">
+
+所有火车最晚需在发车前 **2 分钟** 登车。建议提前 **15-20 分钟** 抵达车站寻找站台。
+
+
+</div></div>
 <table>
 <thead>
 <tr>
@@ -258,11 +412,14 @@
 </tr>
 </tbody>
 </table>
-<div class="alert alert-warning"><div class="alert-title">⚠️ ⚠️ 复杂换乘节点 (7月9日：圣马洛 ➔ 迪镇)</div><div class="alert-content"><ol>
-<li><strong>Rennes (10min)</strong>: 18:25 抵, 18:35 发 (TGV 8636, 车厢 5 座位 523)</li>
-<li><strong>Paris (53min 跨站)</strong>: Montparnasse (20:04 抵) ➔ Austerlitz (20:57 发)</li>
-<li><strong>夜车</strong>: INTERCITES 5789, 车厢 6 座位 66 (Window)</li>
-</ol></div></div>
+<div class="alert alert-warning"><div class="alert-title">复杂换乘节点 (7月9日：圣马洛 ➔ 迪镇)</div><div class="alert-content" markdown="1">
+
+1. **Rennes (10min)**: 18:25 抵, 18:35 发 (TGV 8636, 车厢 5 座位 523)
+2. **Paris (53min 跨站)**: Montparnasse (20:04 抵) ➔ Austerlitz (20:57 发)
+3. **夜车**: INTERCITES 5789, 车厢 6 座位 66 (Window)
+
+
+</div></div>
 <hr />
 <h1>03 每日探索路线</h1>
 <h2>3.1 巴黎 (Paris) | 7.2 - 7.7</h2>
@@ -280,7 +437,7 @@
 </li>
 </ul>
 <p><img alt="" src="d5945811ad284e582d067bb634f1a1d6.png" /></p>
-<p><img alt="" src="Pasted image 20260528173425.png" /></p>
+<p><img alt="" src="Pasted%20image%2020260528173425.png" /></p>
 <h3>🏨 住宿：Peace &amp; Love Hostel</h3>
 <table>
 <thead>
@@ -313,36 +470,43 @@
 </tbody>
 </table>
 <p><img alt="" src="0d64b6e78dfa9451d78f90ecc8cb14ae.png" /> <img alt="" src="4439426ed61834e899408f5d84dc63d5.png" /> <img alt="" src="0da13d8beb17c7f9d2983c954d78cf59.png" /></p>
-<div class="alert alert-warning"><div class="alert-title">⚠️ 🏨 入住防雷指南</div><div class="alert-content"><ul>
-<li><strong>物理防线</strong>: 该建筑 <strong>无电梯</strong> (共 7 层/122 级台阶)，建议入住时申请 <strong>低楼层 (Lower floor)</strong> 床位以减轻搬运负担。</li>
-<li><strong>强制税费</strong>: 城市旅游税 <strong>€2.60/人/晚</strong> (5晚共 €13.00)，入住时收取。</li>
-<li><strong>物品押金</strong>: 钥匙 €3.00 + 浴巾 €4.00 (共 €7.00)，<strong>建议备好现金</strong>。</li>
-<li><strong>支付确认</strong>: 必须提前 24h 联系确认抵达时间，否则床位仅保留 3h。</li>
-</ul></div></div>
+<div class="alert alert-warning"><div class="alert-title">入住防雷指南</div><div class="alert-content" markdown="1">
+
+- **物理防线**: 该建筑 **无电梯** (共 7 层/122 级台阶)，建议入住时申请 **低楼层 (Lower floor)** 床位以减轻搬运负担。
+- **强制税费**: 城市旅游税 **€2.60/人/晚** (5晚共 €13.00)，入住时收取 (💶 **[推荐现金]**)。
+- **物品押金**: 钥匙 €3.00 + 浴巾 €4.00 (共 €7.00)，💶 **[必须现金]** 建议备好硬币或小面额。
+- **支付确认**: 必须提前 24h 联系确认抵达时间，否则床位仅保留 3h。
+
+
+</div></div>
 <h3>🚶 每日探索规划</h3>
 <h4>🗓️ 7 月 2 日 (周四) | 左岸与<a href="https://www.google.com/maps/search/?api=1&amp;query=Quartier+Latin+Paris">拉丁区</a>的人文漫步</h4>
 <ul>
-<li><strong>☀️ 上午</strong>：抵达旅舍存放行李。乘地铁前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Cathédrale+Notre-Dame+de+Paris">巴黎圣母院</a></strong>，看看这座古老建筑的修复进展。<br />
-<img alt="" src="Pasted image 20260528184827.png" /></li>
-<li><strong>⛅ 下午</strong>：经<a href="https://www.google.com/maps/search/?api=1&amp;query=Île+de+la+Cité+Paris">西岱岛</a>前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Quartier+Latin+Paris">拉丁区</a></strong>，感受<a href="https://www.google.com/maps/search/?api=1&amp;query=Sorbonne+University+Paris">索邦大学</a>文学院与巴黎高师的学术氛围。在 <strong>1968 年五月风暴遗迹</strong> 附近走走，逛逛<a href="https://www.google.com/maps/search/?api=1&amp;query=Place+de+la+Sorbonne+Paris">索邦广场</a>周边的书店。<br />
-<img alt="" src="Pasted image 20260528195358.png" /> <img alt="" src="Pasted image 20260528195546.png" /><br />
-    随后前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Centre+Pompidou+Paris">蓬皮杜广场</a></strong>，看看前卫建筑与周边老街区的融合；顺路去 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Citypharma+Paris">Citypharma</a></strong> 药妆店，为女朋友准备好 <strong>兰蔻新持妆轻透粉底液</strong>。<br />
-<img alt="" src="Pasted image 20260528195740.png" /> <img alt="" src="Pasted image 20260528202205.png" /></li>
-<li><strong>🌙 晚上</strong>：在<a href="https://www.google.com/maps/search/?api=1&amp;query=Quartier+Latin+Paris">拉丁区</a>艺术影院 (<strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Le+Champo+Paris">Le Champo</a></strong> 或 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Reflet+Médicis+Paris">Reflet Médicis</a></strong>) 观个影，走走法国新浪潮电影萌芽期的那些街道。<br />
-<img alt="" src="Pasted image 20260528200001.png" /></li>
+<li><strong>☀️ 上午</strong>：抵达旅舍存放行李。乘地铁前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Cathédrale+Notre-Dame+de+Paris">巴黎圣母院</a></strong>，看看这座古老建筑的修复进展。
+    <img alt="" src="Pasted%20image%2020260528184827.png" /></li>
+<li><strong>⛅ 下午</strong>：经<a href="https://www.google.com/maps/search/?api=1&amp;query=Île+de+la+Cité+Paris">西岱岛</a>前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Quartier+Latin+Paris">拉丁区</a></strong>，感受<a href="https://www.google.com/maps/search/?api=1&amp;query=Sorbonne+University+Paris">索邦大学</a>文学院与巴黎高师的学术氛围。在 <strong>1968 年五月风暴遗迹</strong> 附近走走，逛逛<a href="https://www.google.com/maps/search/?api=1&amp;query=Place+de+la+Sorbonne+Paris">索邦广场</a>周边的书店。
+    <img alt="" src="Pasted%20image%2020260528195358.png" /> <img alt="" src="Pasted%20image%2020260528195546.png" />
+    随后前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Centre+Pompidou+Paris">蓬皮杜广场</a></strong>，看看前卫建筑与周边老街区的融合；顺路去 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Citypharma+Paris">Citypharma</a></strong> 药妆店，为女朋友准备好 <strong>兰蔻新持妆轻透粉底液</strong>。
+    <img alt="" src="Pasted%20image%2020260528195740.png" /> <img alt="" src="Pasted%20image%2020260528202205.png" /></li>
+<li><strong>🌙 晚上</strong>：在<a href="https://www.google.com/maps/search/?api=1&amp;query=Quartier+Latin+Paris">拉丁区</a>艺术影院 (<strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Le+Champo+Paris">Le Champo</a></strong> 或 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Reflet+Médicis+Paris">Reflet Médicis</a></strong>) 观个影，走走法国新浪潮电影萌芽期的那些街道。
+    <img alt="" src="Pasted%20image%2020260528200001.png" /></li>
 </ul>
 <h4>🗓️ 7 月 3 日 (周五) | 寻访历史足迹与公共空间</h4>
 <ul>
-<li><strong>☀️ 上午</strong>：前往<a href="https://www.google.com/maps/search/?api=1&amp;query=Père+Lachaise+Cemetery+Paris">拉雪兹神父公墓</a>东侧的 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Mur+des+Fédérés+Paris">巴黎公社社员墙 (Mur des Fédérés)</a></strong>，纪念那段历史。<br />
-<img alt="" src="Pasted image 20260528201956.png" /></li>
-<li><strong>⛅ 下午</strong>：沿 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Place+de+la+Bastille+Paris">巴士底广场</a> ➔ <a href="https://www.google.com/maps/search/?api=1&amp;query=Place+de+la+République+Paris">共和国广场</a></strong> 的路线步行，感受巴黎公共政治表达的氛围。途中经过<a href="https://www.google.com/maps/search/?api=1&amp;query=Musée+national+de+l'histoire+de+l'immigration+Paris">国立移民历史博物馆</a>。<br />
-<img alt="" src="Pasted image 20260528202941.png" /> <img alt="" src="Pasted image 20260528203258.png" /></li>
-<li><strong>🌙 傍晚</strong>：前往 <a href="https://www.google.com/maps/search/?api=1&amp;query=Parc+de+Bercy+Paris">12 区贝西公园</a>内的 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Cinémathèque+Française+Paris">法国电影资料馆 (Cinémathèque Française)</a></strong>，了解 1968 年朗格卢瓦解职事件的历史背景。<br />
-<img alt="" src="Pasted image 20260528204123.png" /></li>
+<li><strong>☀️ 上午</strong>：前往<a href="https://www.google.com/maps/search/?api=1&amp;query=Père+Lachaise+Cemetery+Paris">拉雪兹神父公墓</a>东侧的 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Mur+des+Fédérés+Paris">巴黎公社社员墙 (Mur des Fédérés)</a></strong>，纪念那段历史。
+    <img alt="" src="Pasted%20image%2020260528201956.png" /></li>
+<li><strong>⛅ 下午</strong>：沿 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Place+de+la+Bastille+Paris">巴士底广场</a> ➔ <a href="https://www.google.com/maps/search/?api=1&amp;query=Place+de+la+République+Paris">共和国广场</a></strong> 的路线步行，感受巴黎公共政治表达的氛围。途中经过<a href="https://www.google.com/maps/search/?api=1&amp;query=Musée+national+de+l'histoire+de+l'immigration+Paris">国立移民历史博物馆</a>。
+    <img alt="" src="Pasted%20image%2020260528202941.png" /> <img alt="" src="Pasted%20image%2020260528203258.png" /></li>
+<li><strong>🌙 傍晚</strong>：前往 <a href="https://www.google.com/maps/search/?api=1&amp;query=Parc+de+Bercy+Paris">12 区贝西公园</a>内的 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Cinémathèque+Française+Paris">法国电影资料馆 (Cinémathèque Française)</a></strong>，了解 1968 年朗格卢瓦解职事件的历史背景。
+    <img alt="" src="Pasted%20image%2020260528204123.png" /></li>
 </ul>
 <h4>🗓️ 7 月 4 日 (周六) | 经典地标、购物与电影取景地</h4>
 <ul>
-<li><strong>☀️ 上午</strong>：参观 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Louvre+Museum+Paris">卢浮宫</a></strong> (需提前预约)。</li>
+<li><strong>☀️ 上午 (09:30)</strong>：参观 <strong><a href="https://www.ticketlouvre.fr/">卢浮宫 (Musée du Louvre)</a></strong>。<ul>
+<li><strong>🏛️ 入场指引</strong>：您的入场时间是 <strong>早上 9:30</strong>。请前往<strong>卡鲁塞勒 (Carrousel) 入口</strong>或<strong>玻璃金字塔入口</strong>排队，在检票机处直接扫描门票。</li>
+<li><strong>🚨 门票核验核查极其重要</strong>：门票明确标明为实名制（印有您的拼音姓名 <code>Song Hu</code>）。入场要求明确为“请准备好您的参观凭证和/或身份证件”。<strong>务必随身带好护照原件</strong>，并提前将<strong>整张电子票完整截图</strong>（或将完整 PDF 原件存入手机）。<strong>切勿单独截取一个二维码</strong>，否则遇到抽查时工作人员将无法核实本人身份导致无法入场。</li>
+</ul>
+</li>
 <li><strong>⛅ 中午</strong>：沿<a href="https://www.google.com/maps/search/?api=1&amp;query=Jardin+des+Tuileries+Paris">杜乐丽花园</a>步行至 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Avenue+des+Champs-Élysées+Paris">香榭丽舍大街</a></strong>，途经<a href="https://www.google.com/maps/search/?api=1&amp;query=Arc+de+Triomphe+Paris">凯旋门</a>。<ul>
 <li><strong>🛍️ 购物任务</strong>：在香街的大型 Sephora 或品牌旗舰店为女朋友精心挑选 <strong>香奈儿香水</strong> 和 <strong>YSL 610号口红</strong>。</li>
 </ul>
@@ -356,6 +520,12 @@
 <li><strong>⛅ 下午</strong>：前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Université+Paris+8">巴黎第八大学</a></strong>。参观这所建于六八运动后的学校，感受当年福柯、德勒兹曾在此任教的学术气息 (亦为 <strong>《声不在高》</strong> 取景地)。</li>
 </ul>
 <h4>🗓️ 7 月 6 日 (周一) | 探访 <a href="https://www.google.com/maps/search/?api=1&amp;query=Cergy-Pontoise">Cergy-Pontoise</a> 新城</h4>
+<div class="alert alert-warning"><div class="alert-title">🏨 住宿联络提醒：联系圣马洛房东</div><div class="alert-content" markdown="1">
+
+明天将前往圣马洛。请在今天通过电话或短信联系协调员 **Isa (+33 6 31 55 67 16)**，预约明天下午 (14:00 - 18:00 之间) 具体的交接钥匙时间。法文沟通参考：*"Bonjour Isa, c'est Song Hu. J'arriverai à Saint-Malo demain. Pouvons-nous nous retrouver à l'appartement vers [填入您的预计时间,如 15h00] ?"*
+
+
+</div></div>
 <ul>
 <li><strong>☀️ 全天</strong>：乘坐 RER A 线前往西北郊 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Cergy-Pontoise">Cergy-Pontoise</a></strong>。沿 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Axe+majeur+Cergy">大轴线 (Axe majeur)</a></strong> 漫步，感受这座“新城”的规划构思，去人工湖畔看看当地人的休闲生活。这里也是侯麦 <strong>《我女朋友的男朋友》</strong> 及 <strong>《金银岛》</strong> 的取景地。</li>
 </ul>
@@ -367,7 +537,7 @@
 <h2>3.2 圣马洛 (Saint-Malo) | 7.7 - 7.9</h2>
 <h3>🛬 抵达与交通</h3>
 <p>09:55 AM 抵达<a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Saint-Malo">圣马洛站</a>，建议步行前往 <a href="https://www.google.com/maps/search/?api=1&amp;query=Saint-Servan+Saint-Malo">Saint-Servan</a> 街区住宿点。</p>
-<p><img alt="" src="Pasted image 20260615133615.png" /></p>
+<p><img alt="" src="Pasted%20image%2020260615133615.png" /></p>
 <h3>🏨 住宿：<a href="https://www.google.com/maps/search/?api=1&amp;query=Saint-Servan+Saint-Malo">Saint-Servan</a> Apartment</h3>
 <table>
 <thead>
@@ -395,9 +565,14 @@
 </tr>
 </tbody>
 </table>
-<div class="alert alert-danger"><div class="alert-title">🚨 🚨 注意事项</div><div class="alert-content"><p><strong>必须在抵达前联系协调员 Isa 预约时间</strong>。法文房东邮件明确指出由 Isa 负责对接（而非 Lea），如时间变更需立即致电。此外，公寓的 <strong>螺旋楼梯 (cage d'escalier en colimaçon) 目前正在翻修</strong>，搬运行李时请注意安全。</p></div></div>
-<p><img alt="" src="Pasted image 20260615134338.png" /></p>
-<p><img alt="" src="Pasted image 20260615134444.png" /></p>
+<div class="alert alert-danger"><div class="alert-title">注意事项</div><div class="alert-content" markdown="1">
+
+**必须在抵达前联系协调员 Isa 预约时间**。法文房东邮件明确指出由 Isa 负责对接（而非 Lea），如时间变更需立即致电。此外，公寓的 **螺旋楼梯 (cage d'escalier en colimaçon) 目前正在翻修**，搬运行李时请注意安全。
+
+
+</div></div>
+<p><img alt="" src="Pasted%20image%2020260615134338.png" /></p>
+<p><img alt="" src="Pasted%20image%2020260615134444.png" /></p>
 <h4>🗓️ 7 月 7 日 (周二) | 初探海滨要塞</h4>
 <ul>
 <li><strong>☀️ 上午</strong>：抵达<a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Saint-Malo">圣马洛火车站</a>。前往 <a href="https://www.google.com/maps/search/?api=1&amp;query=Saint-Servan+Saint-Malo">Saint-Servan</a> 街区，在咖啡馆坐坐，感受一下海边的节奏。</li>
@@ -414,6 +589,12 @@
 <li><strong>🌙 傍晚</strong>：漫步在<a href="https://www.google.com/maps/search/?api=1&amp;query=Dinard">迪纳尔</a>的<a href="https://www.google.com/maps/search/?api=1&amp;query=Promenade+du+Clair+de+Lune+Dinard">月光长廊</a>，重温侯麦 <strong>《夏天的故事》</strong> 里的那份海滨松弛感。</li>
 </ul>
 <h4>🗓️ 7 月 9 日 (周四) | 告别圣马洛，开启长途转场</h4>
+<div class="alert alert-warning"><div class="alert-title">🏨 住宿联络提醒：同步夜车动态给迪镇房东</div><div class="alert-content" markdown="1">
+
+今晚将乘坐夜车前往迪镇。由于跨城长途铁路线偶尔会晚点，请在发车前或换乘的路上，给房东 **Alain (06 25 56 46 20)** 发送一条短信，告知您的行程状态和预计明早抵达迪镇的时间。
+
+
+</div></div>
 <ul>
 <li><strong>☀️ 上午</strong>：在 <a href="https://www.google.com/maps/search/?api=1&amp;query=Saint-Servan+Saint-Malo">Saint-Servan</a> 街区随便走走，感受当地布列塔尼人的真实生活，随后办理退房。</li>
 <li><strong>⛅ 下午</strong>：提取行李抵达火车站，准备开始那段充满挑战的换乘之旅。</li>
@@ -421,10 +602,16 @@
 <hr />
 <h2>3.3 迪镇 (Die) | 7.9 - 7.13</h2>
 <h3>🚄 城际换乘：圣马洛 ➔ 迪镇</h3>
-<div class="alert alert-warning"><div class="alert-title">⚠️ ⚠️ 换乘防线与行李预警</div><div class="alert-content"><p>跨城移动约 11 小时 38 分钟。需特别关注 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Rennes">雷恩站</a> 10 分钟</strong> 同站换乘以及 <strong>巴黎 53 分钟</strong> 跨站转移。</p>
-<p><strong>🚨 体能与楼梯警告</strong>:
-巴黎地铁 6 号线与 5 号线换乘站 (如 <a href="https://www.google.com/maps/search/?api=1&amp;query=Place+d'Italie+Paris">Place d'Italie</a>, Austerlitz) <strong>楼梯极多且可能无扶梯/电梯</strong>。
-<strong>请务必控制行李重量</strong> (建议控制在 15-20kg 以内)，确保您能一个人提着行李箱快速上下楼梯冲刺。</p></div></div>
+<div class="alert alert-warning"><div class="alert-title">换乘防线与行李预警</div><div class="alert-content" markdown="1">
+
+跨城移动约 11 小时 38 分钟。需特别关注 **[雷恩站](https://www.google.com/maps/search/?api=1&query=Gare+de+Rennes) 10 分钟** 同站换乘以及 **巴黎 53 分钟** 跨站转移。
+
+**🚨 体能与楼梯警告**: 
+巴黎地铁 6 号线与 5 号线换乘站 (如 [Place d'Italie](https://www.google.com/maps/search/?api=1&query=Place+d'Italie+Paris), Austerlitz) **楼梯极多且可能无扶梯/电梯**。
+**请务必控制行李重量** (建议控制在 15-20kg 以内)，确保您能一个人提着行李箱快速上下楼梯冲刺。
+
+
+</div></div>
 <ol>
 <li><strong>圣马洛 ➔ <a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Rennes">雷恩</a> (17:31 - 18:25)</strong>: 乘坐 TER 854410，上车自由落座。</li>
 <li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Rennes">雷恩</a> ➔ <a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+Montparnasse+Paris">巴黎蒙帕纳斯</a> (18:35 - 20:04)</strong>: 换乘 TGV 8636 (<strong>车厢 5, 座位 523</strong>)。</li>
@@ -433,9 +620,9 @@
 <li>不出站直接换乘 <strong>地铁 5 号线</strong> (Bobigny 方向) 至 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+d'Austerlitz+Paris">Gare d'Austerlitz</a></strong>。</li>
 <li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+d'Austerlitz+Paris">巴黎奥斯特里茨</a> ➔ 迪镇 (20:57 - 05:09+1)</strong>: 乘坐城际夜车 INTERCITÉS 5789 (<strong>车厢 6, 座位 66</strong>)。</li>
 </ol>
-<p><img alt="" src="Pasted image 20260615143452.png" /> <br />
-<img alt="" src="Pasted image 20260615143001.png" /> <br />
-<img alt="" src="Pasted image 20260615142615.png" /></p>
+<p><img alt="" src="Pasted%20image%2020260615143452.png" /> 
+<img alt="" src="Pasted%20image%2020260615143001.png" /> 
+<img alt="" src="Pasted%20image%2020260615142615.png" /></p>
 <h3>🏨 住宿：Studio meublé (Alain)</h3>
 <table>
 <thead>
@@ -463,8 +650,13 @@
 </tr>
 </tbody>
 </table>
-<div class="alert alert-danger"><div class="alert-title">🚨 🚨 钥匙交接风险</div><div class="alert-content"><p>夜车将于 <strong>05:09 AM</strong> 极早抵达到迪镇，而房东 Alain 仅说法语且无自助入住设备。<strong>务必提前与其沟通</strong>清晨抵达的安置方案。</p></div></div>
-<p><img alt="" src="Pasted image 20260615144053.png" /> <img alt="" src="Pasted image 20260615144224.png" /> <img alt="" src="Pasted image 20260615144316.png" /></p>
+<div class="alert alert-info"><div class="alert-title">房东 Alain 回复 (早间入住确认)</div><div class="alert-content" markdown="1">
+
+房东 Alain 确认：目前公寓周五早晨没有被预订。只要没有新的预订，您抵达后可直接步行前往公寓入住（从火车站过去约 10 分钟），他会在那里接待。他特别提醒，因为该铁路线有时会晚点，请在旅途中尽早通过短信向他同步您的行程动态。
+
+
+</div></div>
+<p><img alt="" src="Pasted%20image%2020260615144053.png" /> <img alt="" src="Pasted%20image%2020260615144224.png" /> <img alt="" src="Pasted%20image%2020260615144316.png" /></p>
 <h4>🗓️ 7 月 10 日 (周五) | 夜车抵达与小镇初印象</h4>
 <ul>
 <li><strong>☀️ 清晨 (05:09 - 09:00)</strong>：抵达后，先去镇中心寻觅第一家开门的面包房或咖啡馆，补充下体力，随后与 Alain 见个面领钥匙。</li>
@@ -474,11 +666,17 @@
 </ul>
 <h4>🗓️ 7 月 11 日 (周六) | <a href="https://www.google.com/maps/search/?api=1&amp;query=Marché+de+Die">迪镇集市</a>与周末的烟火气</h4>
 <ul>
-<li><strong>☀️ 上午</strong>：逛逛 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Marché+de+Die">迪镇集市</a></strong>。看看当地果农和商贩的日常，为女朋友带一瓶当地特产的 <strong>起泡酒 (Clairette de Die)</strong> 或精美的手工艺品。</li>
+<li><strong>☀️ 上午</strong>：逛逛 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Marché+de+Die">迪镇集市</a></strong>。看看当地果农和商贩的日常，为女朋友带一瓶当地特产的 <strong>起泡酒 (Clairette de Die)</strong> 或精美的手工艺品 (💶 <strong>[推荐现金]</strong> 乡村集市多为小农户，通常仅收现金)。</li>
 <li><strong>⛅ 下午</strong>：在小镇巷子里和 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Remparts+de+Die">罗马城墙遗址 (Remparts de Die)</a></strong> 周边随意走走，感受这座盆地城镇特有的宁静与古朴。</li>
 <li><strong>🌙 晚上</strong>：去 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Place+de+la+République+Die">共和国广场 (Place de la République)</a></strong> 附近找家酒馆。点一杯酒，静静感受一下外省年轻人的真实社交生活。</li>
 </ul>
 <h4>🗓️ 7 月 12 日 (周日) | 探访韦科尔高原 (Vercors)</h4>
+<div class="alert alert-warning"><div class="alert-title">🏨 住宿联络提醒：获取圣保罗三堡入住密码</div><div class="alert-content" markdown="1">
+
+明天将前往圣保罗-特鲁瓦堡。请检查您的 Booking 站内信或 WhatsApp，确认房东 **Laurence** 是否已经发送了密码钥匙盒的密码。若未收到，请主动发消息询问：*"Hello Laurence, could you please send me the code for the keybox for my arrival tomorrow? Thank you!"*
+
+
+</div></div>
 <ul>
 <li><strong>☀️ 全天</strong>：从轻松的假日氛围切换到 <strong>历史探寻</strong>。去 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Massif+du+Vercors">韦科尔高原 (Massif du Vercors)</a></strong> 走走，这片群山既是自然的屏障，也曾在二战时见证过法国人的反抗精神。</li>
 </ul>
@@ -493,11 +691,11 @@
 <li><strong>阶段一 (08:53 - 09:47)</strong>: 迪镇 ➔ <a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Livron">Livron</a> (TRAIN ZOU 17364, 自由落座)。</li>
 <li><strong>阶段二 (09:57 - 10:28)</strong>: <a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Livron">Livron</a> ➔ <a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Pierrelatte">Pierrelatte</a> (TRAIN ZOU 886565)。</li>
 <li><strong>阶段三: 最后一公里接驳 (<a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Pierrelatte">Pierrelatte</a> ➔ 酒店)</strong>:</li>
-<li><strong>首选 (公交)</strong>: 乘坐 <strong>D42/D44/D45 路</strong> (Nyons方向)，车程 15min，票价 ~€2。</li>
-<li><strong>备选 (打车)</strong>: 车程 10min，费用预计 €20-25。</li>
+<li><strong>首选 (公交)</strong>: 乘坐 <strong>D42/D44/D45 路</strong> (Nyons方向)，车程 15min，票价 ~€2 (💶 <strong>[必须现金]</strong> 需上车向司机买票，请准备零钱)。</li>
+<li><strong>备选 (打车)</strong>: 车程 10min，费用预计 €20-25 (💶 <strong>[推荐现金]</strong> 乡村出租车有时不支持刷卡)。</li>
 </ol>
-<p><img alt="" src="Pasted image 20260615150551.png" /> <br />
-<img alt="" src="Pasted image 20260615151742.png" /></p>
+<p><img alt="" src="Pasted%20image%2020260615150551.png" /> 
+<img alt="" src="Pasted%20image%2020260615151742.png" /></p>
 <h3>🏨 住宿：30 Chemin de Fenouillet</h3>
 <table>
 <thead>
@@ -517,10 +715,21 @@
 </tr>
 </tbody>
 </table>
-<p><img alt="" src="f0534909d2907fce2646b3cb18a3b80c.png" /> <br />
+<div class="alert alert-info"><div class="alert-title">房东 Laurence 回复 (入住方式)</div><div class="alert-content" markdown="1">
+
+房东 Laurence 确认：房源配有密码钥匙盒，支持自助入住。她会在您抵达前通过预订网站或 WhatsApp 发送钥匙盒密码。她和家人就住在隔壁，如果入住后有任何需要，随时可以找到人帮忙。
+
+
+</div></div>
+<p><img alt="" src="f0534909d2907fce2646b3cb18a3b80c.png" /> 
 <img alt="" src="ab89c26683977481bdae3aa1f108e0a5.png" /></p>
 <h3>🚶 逐日考察规划</h3>
-<div class="alert alert-info"><div class="alert-title">ℹ️ 💡 背景补充</div><div class="alert-content"><p>这里是侯麦 <strong>《秋天的故事》</strong> (<em>Conte d'automne</em>) 的核心取景地，且适逢 <strong>7 月 14 日法国国庆日</strong>。旅程将呈现“私人葡萄园微观情感空间”与“国家宏大叙事下沉到乡村”的强烈冲撞。</p></div></div>
+<div class="alert alert-info"><div class="alert-title">背景补充</div><div class="alert-content" markdown="1">
+
+这里是侯麦 **《秋天的故事》** (_Conte d'automne_) 的核心取景地，且适逢 **7 月 14 日法国国庆日**。旅程将呈现“私人葡萄园微观情感空间”与“国家宏大叙事下沉到乡村”的强烈冲撞。
+
+
+</div></div>
 <h4>🗓️ 7 月 13 日 (周一) | 抵达平原，初探南法乡村</h4>
 <ul>
 <li><strong>☀️ 中午 (11:00 左右)</strong>：办理入住，感受一下远离喧嚣的南法乡村：开阔的田野、独栋的小屋和错落的树篱。</li>
@@ -547,8 +756,8 @@
 <li><strong>车次</strong>: TRAIN ZOU 886557 (07:09 - 09:09)</li>
 <li><strong>衔接</strong>: 抵达<a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+Saint-Charles+Marseille">圣夏尔火车站 (Gare Saint-Charles)</a> 后，乘 <strong>地铁 2 号线</strong> 前往第 3 区。</li>
 </ul>
-<p><img alt="" src="Pasted image 20260615155139.png" /> <br />
-<img alt="" src="Pasted image 20260615155411.png" /></p>
+<p><img alt="" src="Pasted%20image%2020260615155139.png" /> 
+<img alt="" src="Pasted%20image%2020260615155411.png" /></p>
 <h3>🏨 住宿：Marseille Hostel (3rd Arr.)</h3>
 <table>
 <thead>
@@ -570,6 +779,12 @@
 </table>
 <h3>🚶 每日探索规划</h3>
 <h4>🗓️ 7 月 15 日 (周三) | 抵达与地中海初探</h4>
+<div class="alert alert-warning"><div class="alert-title">📱 网络续命提醒 (SIM 卡充值)</div><div class="alert-content" markdown="1">
+
+您的 Orange Holiday 实体卡 (14天有效期) 预计在今天到期！请在前往马赛的火车上，利用乘车时间登录 Orange 官网（或点击短信里的 Top-up 链接），购买一个几 GB 的短期流量包，确保最后三天在马赛和回程巴黎的网络畅通。
+
+
+</div></div>
 <ul>
 <li><strong>☀️ 上午</strong>：抵达<a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+Saint-Charles+Marseille">马赛圣夏尔站</a>，先去放行李。</li>
 <li><strong>⛅ 下午 (14:00 - 18:00)</strong>：前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Plage+des+Catalans+Marseille">加泰罗尼亚海滩 (Plage des Catalans)</a></strong>。和当地人一起下海游个泳，在这片热闹的公共沙滩上感受马赛最市井、最真实的活力。</li>
@@ -601,14 +816,22 @@
 <li><strong>⛅ 下午 (15:00 - 18:00)</strong>：前往 <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Parc+des+Buttes-Chaumont+Paris">肖蒙山丘公园 (Parc des Buttes-Chaumont)</a></strong>。找一片草坪坐下，在侯麦 <strong>《飞行员的妻子》</strong> 的取景地整理一下这 17 天的思绪与日记，给这趟旅程画上一个圆满的句号。</li>
 </ul>
 <h3>✈️ 撤离坐标 (Route to CDG)</h3>
-<div class="alert alert-tip"><div class="alert-title">💡 机场交通提示 (19:00 开始执行)</div><div class="alert-content"><ol>
-<li><strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Lyon+Paris">Gare de Lyon</a></strong> ➔ <strong>RER A</strong> (一站) ➔ <strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Châtelet-Les+Halles+Paris">Châtelet-Les Halles</a></strong>。</li>
-<li>同站台对面换乘 <strong>RER B</strong> ➔ <strong>CDG Terminal 2</strong>。</li>
-<li><strong>20:00</strong> 抵达 2E 航站楼值机，准备搭乘 <strong>AF202 (22:45)</strong> 返回北京。</li>
-</ol></div></div>
+<div class="alert alert-tip"><div class="alert-title">机场交通提示 (19:00 开始执行)</div><div class="alert-content" markdown="1">
+
+1. **[Gare de Lyon](https://www.google.com/maps/search/?api=1&query=Gare+de+Lyon+Paris)** ➔ **RER A** (一站) ➔ **[Châtelet-Les Halles](https://www.google.com/maps/search/?api=1&query=Châtelet-Les+Halles+Paris)**。
+2. 同站台对面换乘 **RER B** ➔ **CDG Terminal 2**。
+3. **20:00** 抵达 2E 航站楼值机，准备搭乘 **AF202 (22:45)** 返回北京。
+
+
+</div></div>
 <hr />
 <h1>04 独行护航：安全与生存法则</h1>
-<div class="alert alert-tip"><div class="alert-title">💡 💡 独行者的小提醒</div><div class="alert-content"><p>您一个人旅行，保持警惕与节奏是核心。法国虽然浪漫，但对陌生环境的“社会经验”同样重要。</p></div></div>
+<div class="alert alert-tip"><div class="alert-title">独行者的小提醒</div><div class="alert-content" markdown="1">
+
+您一个人旅行，保持警惕与节奏是核心。法国虽然浪漫，但对陌生环境的“社会经验”同样重要。
+
+
+</div></div>
 <h3>🚨 1. 独行防盗指南</h3>
 <ul>
 <li><strong>地铁防抢</strong>: 在巴黎地铁(特别是 1、4、B线)，<strong>绝对不要在车门即将关闭时玩手机</strong>。抢匪通常会守在门边，在关门瞬间抢走手机并冲向站台。</li>
@@ -619,12 +842,20 @@
 <ul>
 <li><strong>用餐时间</strong>: 法国餐厅午餐通常在 12:00-14:00，晚餐从 19:30 开始。错过时间可能只剩快餐。</li>
 <li><strong>省钱点餐</strong>: 餐厅的依云矿泉水很贵。请直接对侍者说：<em>"Une carafe d'eau, s'il vous plaît"</em> (请给我一瓶自来水)，这是免费且默认提供的。</li>
-<li><strong>公厕与硬币</strong>: 欧洲公厕较少且收费(约 €1-2)。身上请时刻保留少量欧元硬币，或进入咖啡馆买杯最便宜的 Espresso 换取使用厕所的机会。</li>
+<li><strong>公厕与硬币 (💶 [必须现金])</strong>: 欧洲公厕较少且收费(约 €1-2)。身上请时刻保留少量欧元硬币，或进入咖啡馆买杯最便宜的 Espresso 换取使用厕所的机会。</li>
 </ul>
 <h3>🆘 3. 应急预案</h3>
 <ul>
-<li><strong>护照备份</strong>: 请务必在云端（如百度网盘或邮件）存一份护照和签证的扫描件。</li>
-<li><strong>共享行程</strong>: 建议将这份指南共享给国内的朋友或家人，并在社交软件（如微信）上给紧急联系人开通“共享实时位置”。</li>
+<li><strong>护照备份</strong>: 请务必在云端（如百度网盘或邮件）存一份护照和签证的扫描件。
+ <strong>共享行程</strong>: 建议将这份指南共享给国内的朋友或家人，并在社交软件（如微信）上给紧急联系人开通“共享实时位置”。</li>
 <li><strong>礼貌社交</strong>: 在法国寻求任何帮助（问路、点餐、领钥匙）前，请务必先微笑说一句 <strong>"Bonjour!"</strong>。在法国文化中，没有这句问候直接提问会被视为非常无礼，而一句热情的 Bonjour 会让对方变得友好许多。</li>
 <li><strong>突发罢工</strong>: 法国铁路偶尔会有罢工。请在每段跨城火车出发的前一天，通过 <strong>SNCF Connect App</strong> 再次确认车次状态（若显示 "Supprimé" 即为取消，需及时联系柜台改签）。</li>
-</ul></body></html>
+</ul>
+<hr />
+<h1>📎 05 附件区 (Attachments)</h1>
+<ul>
+<li>🎟️ <strong>卢浮宫电子门票 (7月4日 09:30)</strong>：<a href="./Louvre-tickets_V260781414035.pdf">点击打开 PDF 文件</a></li>
+</ul>
+<p><embed src="./Louvre-tickets_V260781414035.pdf" width="100%" height="800px" type="application/pdf" /></p>
+</body>
+</html>
